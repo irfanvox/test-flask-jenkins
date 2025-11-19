@@ -1,7 +1,7 @@
 pipeline{
   agent any
   environment{
-    IMAGE_NAME = "irfanvox/test-flask-jenkins"
+    IMAGE_NAME = "irfanshaik/test-flask-jenkins"
   }
   stages{
     stage("Checkout git"){
